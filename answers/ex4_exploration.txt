@@ -1,0 +1,53 @@
+$ ls 
+.              1 1 1024
+..             1 1 1024
+README         2 2 2627
+cat            2 3 35384
+echo           2 4 34288
+forktest       2 5 17240
+grep           2 6 42728
+init           2 7 34760
+kill           2 8 34224
+ln             2 9 34040
+ls             2 10 41504
+mkdir          2 11 34280
+rm             2 12 34272
+sh             2 13 56104
+stressfs       2 14 35144
+usertests      2 15 186024
+grind          2 16 50488
+wc             2 17 36320
+zombie         2 18 33648
+logstress      2 19 36184
+forphan        2 20 35048
+dorphan        2 21 34488
+console        3 22 0
+myfile.tx 23 0
+myfile.txt     2 24 17
+testdir        1 25 32
+output.tx 26 0
+output.txt     2 27 9
+
+$ cat README
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FS6dDysu)
+xv6 is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix
+Version 6 (v6).  xv6 loosely follows the structure and style of v6,
+but is implemented for a modern RISC-V multiprocessor using ANSI C.
+
+ACKNOWLEDGMENTS
+
+xv6 is inspired by John Lions's Commentary on UNIX 6th Edition (Peer
+to Peer Communications; ISBN: 1-57398-013-7; 1st edition (June 14,
+2000)).  See also https://pdos.csail.mit.edu/6.1810/, which provides
+pointers to on-line resources for v6.
+
+The following people have made contributions: Russ Cox (context switching,
+locking), Cliff Frey (MP), Xiao Yu (MP), Nickolai Zeldovich, and Austin
+Clements.
+We are also grateful for the bug reports and patches contributed by
+Abhinavpatel00, Takahiro Aoyagi, Marcelo Arroyo, Hirbod Behnam, Silas
+Boyd-Wickizer, Anton Burtsev, carlclone, Ian Chen, clivezeng, Dan
+Cross, Cody Cutler, Mike CAT, Tej Chajed, Asami Doi,Wenyang Duan,
+echtwerner, eyalz800, Nelson Elhage, Saar Ettinger, Alice Ferrazzi,
+Nathaniel Filardo, flespark, Peter Froehlich, Yakir Goaron, Shivam
+Handa, Matt Harvey, Bryan Henry, jaichenhengjie, Jim Huang, Matúš

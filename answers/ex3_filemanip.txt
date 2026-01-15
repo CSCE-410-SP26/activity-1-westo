@@ -1,0 +1,12 @@
+$ echo "Line 1" >> output.txt
+$ echo "Line 2" >> output.txt
+$ cat output.txt
+"Line 1"
+"Line 2"
+
+$ grep Line output.txt
+"Line 1"
+"Line 2"
+
+$ wc output.txt
+2 4 14 output.txt

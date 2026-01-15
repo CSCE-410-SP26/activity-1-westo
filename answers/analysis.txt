@@ -1,0 +1,31 @@
+1. Number of files in root directory: [28]
+2. Available user programs in xv6: [20]
+
+Bonus
+$ usertests
+runs a large amount of tests on various system calls to see whether or not the OS is functioning properly
+output was massive and consisted of many successful executed tests
+this took about ~3:56 minutes to run
+
+$ forktest
+from my understanding, this counts successful concurrent child forks until fork fails and compares it to the expected amount
+output:
+fork test
+fork test OK
+this finished immediately 
+
+$ stressfs
+this stress tests the file system
+output:
+stressfs starting
+write wri0t
+e 1
+wrwite 2rite 3
+
+write 4
+read
+read
+read
+read
+read
+this also ran almost immediately
